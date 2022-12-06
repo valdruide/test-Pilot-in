@@ -2,12 +2,20 @@
     color: white;
 }
 
+.mt-30{
+    margin-top: 30px;
+}
+
 .mt-100 {
       margin-top: 100px;
 }
 
 .mt-300{
     margin-top: 300px;
+}
+
+.mb-100{
+    margin-bottom: 100px;
 }
 
 .w600{

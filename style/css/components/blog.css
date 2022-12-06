@@ -1,0 +1,84 @@
+.blogCard {
+      border: 2px solid #a0bdc0;
+      border-radius: 15px;
+      padding: 25px;
+      margin: 15px;
+      transition: all 0.3s;
+      cursor: pointer;
+      width: 200px;
+}
+
+.blogCard h3 {
+      font-weight: 600;
+      display: -webkit-box;
+      overflow: hidden;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+}
+
+.blogTxt {
+      display: -webkit-box;
+      overflow: hidden;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical;
+}
+
+.blogCard:hover {
+      transform: scale(1.05);
+      -webkit-box-shadow: 0px 5px 10px -7px #000000;
+      box-shadow: 0px 5px 10px -5px #000000;
+}
+
+.category {
+      display: inline-block;
+      color: #23b2c8;
+      border: 2px solid #23b2c8;
+      padding: 8px 15px;
+      border-radius: 10px;
+}
+
+.cardFoot {
+      display: flex;
+      align-items: center;
+}
+
+.hostName {
+      display: flex;
+      align-items: center;
+}
+
+.hostName img {
+      width: 15%;
+      border-radius: 100%;
+}
+
+.hostName p {
+      margin: 0;
+      margin-left: 10px;
+}
+
+.readMore {
+      border: 2px solid black;
+      padding: 10px;
+      width: 50px;
+      height: 50px;
+      position: relative;
+      border-radius: 100%;
+      display: flex;
+      align-items: center;
+      transition: all 0.2s;
+}
+
+.readMore:hover {
+      background-color: #23b2c8;
+      color: white;
+      border: 2px solid #23b2c8;
+}
+
+.fa-arrow-right {
+      top: 50%;
+      left: 50%;
+      font-size: 1.5em;
+      padding: 0;
+      margin: 0;
+}
