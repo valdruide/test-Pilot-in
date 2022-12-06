@@ -1,0 +1,93 @@
+footer{
+    margin-top: 200px;
+    background-image: url("../../imgs/shapes/shape-dot-white-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+footer h3{
+    color: #156B79;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li{
+    color: #26C1D9;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer ul li:hover{
+    color: #3edff8;
+}
+
+.lastCol{
+    text-align: right;
+}
+
+.socialList{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.socialList .fa-brands{
+    font-size: 20px;
+    color: black;
+    border: 2px solid black;
+    padding: 15px;
+    margin-left: 10px;
+    border-radius: 100%;
+}
+
+.fa-brands:hover{
+    color: White;
+    border: 2px solid #3edff8;
+    background-color: #3edff8;
+}
+
+.footerBande{
+    background-color: #F7FAFB;
+    padding: 20px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+
+.links h4, .links a{
+    font-size: 18px;
+    margin: 0;
+}
+
+.links a{
+    color: black;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: #26C1D9;
+    text-decoration: none;
+}
+
+.marque{
+    text-align: right;
+}
+
+.marque h4{
+    font-size: 18px;
+    margin: 0;
+
+}
+
+.marque span{
+    text-decoration: underline;
+    font-weight: 600;
+}
