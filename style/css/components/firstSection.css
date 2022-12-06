@@ -1,0 +1,24 @@
+.btnBlue {
+      background-color: #23b2c8;
+      display: inline-block;
+      transition: all 0.2s;
+      cursor: pointer;
+      border-radius: 25px;
+      margin-top: 15px;
+}
+
+.btnBlue p {
+      margin: 8px 20px 8px 20px;
+}
+
+.btnBlue:active {
+    transform: scale(0.9);
+}
+
+.btnBlue:hover {
+    background-color: #2fc9e0;
+}
+
+.btnBlue:hover p {
+    color: white;
+}

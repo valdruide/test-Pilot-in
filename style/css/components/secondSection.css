@@ -1,0 +1,26 @@
+.helpContainer {
+      background: linear-gradient(156deg, rgba(8, 33, 57, 1) 0%, rgba(8, 33, 57, 1) 42%, rgba(10, 53, 94, 1) 100%);
+      background: rgb(8, 33, 57);
+      position: relative;
+      height: 200vh;
+}
+
+.imgDataRow{
+    position: relative;
+}
+
+.imgDataAnalyst{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+
+.helpTitle{
+    position: relative;
+    margin-top: 350px;
+}
+
+.helpTitle span {
+      color: #23b2c8;
+}

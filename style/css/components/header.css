@@ -71,8 +71,7 @@ header {
 }
 
 .btnHead:hover {
-      -webkit-box-shadow: 0px 3px 10px 0px rgba(255, 210, 203, 0.4);
-      box-shadow: 0px 3px 10px 0px rgba(255, 210, 203, 0.4);
+      background-color: #f15c45;
 }
 
 .btnHead:hover p {
@@ -99,10 +98,10 @@ header {
 }
 
 .bannerContent2 {
-    display: inline-block;
-    animation: animate2 50s linear infinite;
-    animation-delay: -50s;
-    margin-bottom: 50px;
+      display: inline-block;
+      animation: animate2 50s linear infinite;
+      animation-delay: -50s;
+      margin-bottom: 50px;
 }
 
 .banner p {
@@ -127,10 +126,10 @@ header {
 }
 
 @keyframes animate2 {
-    from {
-          transform: translateX(0%);
-    }
-    to {
-          transform: translateX(-200%);
-    }
+      from {
+            transform: translateX(0%);
+      }
+      to {
+            transform: translateX(-200%);
+      }
 }

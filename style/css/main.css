@@ -1,0 +1,23 @@
+.white{
+    color: white;
+}
+
+.mt-100 {
+      margin-top: 100px;
+}
+
+.mt-300{
+    margin-top: 300px;
+}
+
+.w600{
+    font-weight: 600;
+}
+
+.fs18px{
+    font-size: 18px;
+}
+
+.fs3rem{
+    font-size: 3rem;
+}
