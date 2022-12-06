@@ -1,0 +1,136 @@
+header {
+      background: rgb(8, 33, 57);
+      background: linear-gradient(156deg, rgba(8, 33, 57, 1) 0%, rgba(8, 33, 57, 1) 42%, rgba(10, 53, 94, 1) 100%);
+      color: white;
+      clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+}
+
+.headContainer {
+      padding-left: 60px;
+      padding-right: 60px;
+}
+
+.annonce {
+      display: flex;
+      justify-content: center;
+}
+
+.annonce p {
+      font-size: 18px;
+      margin: 10px;
+}
+
+.alertHeader {
+      color: #23b2c8;
+      cursor: pointer;
+      transition: all 0.2s;
+}
+
+.alertHeader:hover {
+      color: #1ddefc;
+}
+
+.headContainer {
+      height: 100vh;
+}
+
+.headTitle h1 {
+      color: White;
+      font-weight: 600;
+      font-size: 5rem;
+}
+
+.headTitle p {
+      font-size: 21px;
+      margin-top: 45px;
+}
+
+.headTitle span {
+      color: #23b2c8;
+}
+
+.imgHeadIllu {
+      width: 100%;
+}
+
+.btnHead {
+      background-color: #fd7762;
+      display: inline-block;
+      border-radius: 25px;
+      margin-top: 15px;
+      transition: all 0.3s;
+      cursor: pointer;
+}
+
+.btnHead p {
+      transition: all 0.3s;
+      text-transform: uppercase;
+      margin: 8px 20px 8px 20px;
+      font-size: 18px;
+      color: #082139;
+}
+
+.btnHead:hover {
+      -webkit-box-shadow: 0px 3px 10px 0px rgba(255, 210, 203, 0.4);
+      box-shadow: 0px 3px 10px 0px rgba(255, 210, 203, 0.4);
+}
+
+.btnHead:hover p {
+      color: white;
+}
+
+.partenaires {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+}
+
+.banner {
+      overflow: hidden;
+      white-space: nowrap;
+      transform: rotate(-3.5deg);
+}
+
+.bannerContent1 {
+      display: inline-block;
+      animation: animate1 50s linear infinite;
+      animation-delay: -25s;
+      margin-bottom: 50px;
+}
+
+.bannerContent2 {
+    display: inline-block;
+    animation: animate2 50s linear infinite;
+    animation-delay: -50s;
+    margin-bottom: 50px;
+}
+
+.banner p {
+      color: #26c1d9;
+      font-size: 10rem;
+      font-weight: 600;
+}
+
+.banner span {
+      color: #09233d;
+      /* -webkit-text-stroke: 2px #23b2c8; */
+      text-shadow: -2px -2px 0 #23b2c8, 2px -2px 0 #23b2c8, -2px 2px 0 #23b2c8, 2px 2px 0 #23b2c8;
+}
+
+@keyframes animate1 {
+      from {
+            transform: translateX(100%);
+      }
+      to {
+            transform: translateX(-100%);
+      }
+}
+
+@keyframes animate2 {
+    from {
+          transform: translateX(0%);
+    }
+    to {
+          transform: translateX(-200%);
+    }
+}
