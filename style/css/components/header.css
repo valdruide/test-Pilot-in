@@ -37,7 +37,7 @@ header {
 .headTitle h1 {
       color: White;
       font-weight: 600;
-      font-size: 5rem;
+      font-size: 5em;
 }
 
 .headTitle p {
@@ -81,6 +81,7 @@ header {
 .partenaires {
       margin-top: 30px;
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
 }
 
@@ -131,5 +132,33 @@ header {
       }
       to {
             transform: translateX(-200%);
+      }
+}
+
+@media screen and (max-width: 662px) {
+      .headTitle h1{
+            font-size: 3em;
+      }
+}
+
+
+@media screen and (max-width: 900px) {
+
+      .headContainer{
+            margin-top: 80px;
+      }
+
+      .imgHeadIllu{
+            margin-top: 80px;
+      }
+}
+
+@media screen and (max-width: 1000px){
+      header{
+            clip-path: none;
+      }
+      .banner{
+            margin-top: 80px;
+            transform: rotate(0);
       }
 }

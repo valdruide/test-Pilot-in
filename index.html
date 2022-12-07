@@ -23,6 +23,8 @@
             <link rel="stylesheet" href="style/css/components/blog.css" />
             <link rel="stylesheet" href="style/css/components/demo.css" />
             <link rel="stylesheet" href="style/css/components/footer.css" />
+            <link rel="stylesheet" href="style/css/components/nav.css" />
+            <link rel="stylesheet" href="style/css/components/parallax.css" />
       </head>
       <body>
             <div class="annonce">
@@ -30,6 +32,80 @@
                   <p class="alertHeader">Reçevoir une alerte</p>
             </div>
             <header>
+                  <nav class="navbar navbar-expand-lg bg-light">
+                        <div class="container-fluid">
+                              <a class="navbar-brand" href="#"><img src="style/imgs/Logo_blanc.svg" alt="logo" /></a>
+                              <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                          <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Products </a>
+                                                <ul class="dropdown-menu">
+                                                      <div class="container">
+                                                            <div class="row">
+                                                                  <h2>Our products</h2>
+                                                            </div>
+                                                            <div class="row mt-30">
+                                                                  <div class="col">
+                                                                        <h3><i class="fa-solid fa-chart-line"></i>DATAFACTORY</h3>
+                                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, corporis!</p>
+                                                                  </div>
+                                                                  <div class="col">
+                                                                        <h3><i class="fa-solid fa-chart-line"></i>DATAFACTORY</h3>
+                                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, corporis!</p>
+                                                                  </div>
+                                                            </div>
+                                                      </div>
+                                                </ul>
+                                          </li>
+                                          <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Ressources </a>
+                                                <ul class="dropdown-menu">
+                                                      <div class="container">
+                                                            <div class="row">
+                                                                  <h2>Discover all our ressources</h2>
+                                                            </div>
+                                                            <div class="row mt-30">
+                                                                  <div class="col">
+                                                                        <h3><i class="fa-solid fa-chart-line"></i>DATAFACTORY</h3>
+                                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, corporis!</p>
+                                                                  </div>
+                                                                  <div class="col">
+                                                                        <h3><i class="fa-solid fa-chart-line"></i>DATAFACTORY</h3>
+                                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, corporis!</p>
+                                                                  </div>
+                                                                  <div class="col">
+                                                                        <h3><i class="fa-solid fa-chart-line"></i>DATAFACTORY</h3>
+                                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, corporis!</p>
+                                                                  </div>
+                                                                  <div class="col">
+                                                                        <h3><i class="fa-solid fa-chart-line"></i>DATAFACTORY</h3>
+                                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, corporis!</p>
+                                                                  </div>
+                                                            </div>
+                                                      </div>
+                                                </ul>
+                                          </li>
+                                          <li class="nav-item">
+                                                <a class="nav-link" href="#">Company</a>
+                                          </li>
+                                    </ul>
+                                    <div class="d-flex">
+                                          <button class="btnNav" type="submit">Free demo</button>
+                                          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ulRight">
+                                                <li class="nav-item dropdown langDrop">
+                                                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> FR </a>
+                                                      <ul class="dropdown-menu lang">
+                                                            <li><a class="dropdown-item" href="#">EN</a></li>
+                                                      </ul>
+                                                </li>
+                                          </ul>
+                                    </div>
+                              </div>
+                        </div>
+                  </nav>
                   <div class="d-flex align-items-center headContainer">
                         <div class="container-fluid justify-content-around">
                               <div class="row align-items-center">
@@ -63,21 +139,25 @@
                   </div>
             </header>
             <main>
-                  <div class="container mt-100">
-                        <div class="row">
-                              <div class="col">
-                                    <h2 class="w600 fs3rem">Get out of the chaos</h2>
-                              </div>
-                              <div class="col">
-                                    <p class="fs18px">In today’s perpetual disruption and digital transformation era, volume of data managed expand exponentially and change the way organizations do business. This comes as little surprise and induces a rising demand for data-driven customer experiences, together with changing data volume/sources and quality requirements.</p>
-                                    <p>However, company runs their processes over hundreds of systems that don’t play nice together, leaving a lot of room for inefficiencies to hide that are silent killers to your business performance.</p>
-                                    <p>While many companies state they want to be data-driven, most have only begun to scratch the surface in terms of realizing the full potential of this rich resource.</p>
-                                    <p>Pilot'in recognizes the right for organizations to become truly data-driven, moving from a fragmented view to a global vision and drive their strategy even further.</p>
-                                    <div class="btnBlue fs18px">
-                                          <p>Discover our vision</p>
+                  <div class="container-fluid mt-100 relative">
+                        <div class="container">
+                              <div class="row">
+                                    <div class="col-lg-6 col-xs-12">
+                                          <h2 class="w600 fs3rem">Get out of the chaos</h2>
+                                    </div>
+                                    <div class="col-lg-6 col-xs-12">
+                                          <p class="fs18px">In today’s perpetual disruption and digital transformation era, volume of data managed expand exponentially and change the way organizations do business. This comes as little surprise and induces a rising demand for data-driven customer experiences, together with changing data volume/sources and quality requirements.</p>
+                                          <p>However, company runs their processes over hundreds of systems that don’t play nice together, leaving a lot of room for inefficiencies to hide that are silent killers to your business performance.</p>
+                                          <p>While many companies state they want to be data-driven, most have only begun to scratch the surface in terms of realizing the full potential of this rich resource.</p>
+                                          <p>Pilot'in recognizes the right for organizations to become truly data-driven, moving from a fragmented view to a global vision and drive their strategy even further.</p>
+                                          <div class="btnBlue fs18px">
+                                                <p>Discover our vision</p>
+                                          </div>
                                     </div>
                               </div>
                         </div>
+
+                        <img class="parallaxShape" src="style/imgs/parallax/parallaxe-shapes-duo-colors.svg" alt="parallax shape" />
                   </div>
                   <div class="container-fluid mt-300 p-5 helpContainer">
                         <div class="row imgDataRow">
@@ -96,6 +176,7 @@
                                           <div class="row align-items-center">
                                                 <div class="col-lg-6 col-sm-12 d-flex justify-content-center">
                                                       <img class="factoryImg" src="style/imgs/Datafactory-v3.png" alt="data factory" />
+                                                      <img class="factoryImgHoriz" src="style/imgs/Datafactory-v3-horiz.png" alt="data factory" />
                                                 </div>
                                                 <div class="col-lg-6 col-sm-12 d-flex justify-content-center flex-column">
                                                       <h2 class="w600 firstCardTitle"><i class="fa-solid fa-chart-line"></i>DATAFACTORY</h2>
@@ -157,7 +238,9 @@
                               </div>
                         </div>
                   </div>
-                  <div class="container">
+                  <div class="container-fluid clipPath"></div>
+                  <div class="container-fluid relative carouselSection">
+                        <img class="parallaxShape2" src="./style/imgs/parallax/parallaxe-shapes-blue-down.svg" alt="parallax Shape" />
                         <div class="row">
                               <div class="col">
                                     <h2 class="w600 text-center">They trust Pilot'in.</h2>
@@ -348,5 +431,7 @@
                   </div>
             </footer>
       </body>
+      <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+      <script src="./style/parallax.js"></script>
 </html>

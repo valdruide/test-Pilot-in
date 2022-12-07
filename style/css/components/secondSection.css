@@ -2,7 +2,14 @@
       background: linear-gradient(156deg, rgba(8, 33, 57, 1) 0%, rgba(8, 33, 57, 1) 42%, rgba(10, 53, 94, 1) 100%);
       background: rgb(8, 33, 57);
       position: relative;
-      clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+      /* clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%); */
+}
+
+.clipPath {
+      background: linear-gradient(156deg, rgba(8, 33, 57, 1) 0%, rgba(8, 33, 57, 1) 42%, rgba(10, 53, 94, 1) 100%);
+      background: rgb(8, 33, 57);
+      height: 200px;
+      clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
 }
 
 .imgDataRow {
@@ -39,11 +46,14 @@
       margin-top: 50px;
       overflow: hidden;
       position: relative;
-      margin-bottom: 200px;
 }
 
 .factoryImg {
       width: 70%;
+}
+
+.factoryImgHoriz {
+      display: none;
 }
 
 :root {
@@ -121,75 +131,117 @@
       color: white;
 }
 
-.ipad{
-    background-image: url("../../imgs/ipad-placeholder.png");
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:auto;
-    height: 800px;
-    z-index: 5;
+.ipad {
+      background-image: url('../../imgs/ipad-placeholder.png');
+      position: relative;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: auto;
+      height: 800px;
+      z-index: 5;
 }
 
-.ipad p{
-    font-size: 10px;
+.ipad p {
+      font-size: 10px;
 }
 
-.ipad h3{
-    font-size: 15px;
+.ipad h3 {
+      font-size: 15px;
 }
 
-.ipadBg{
-    background-color: white;
-    margin-bottom: 55px;
-    border-radius: 25px;
-    width: 80%;
-    z-index: 10;
+.ipadBg {
+      background-color: white;
+      margin-bottom: 55px;
+      border-radius: 25px;
+      width: 80%;
+      z-index: 10;
 }
 
-.spinner{
-    position: relative;
-    height: 200px;
-    border: 2px solid rgb(221, 221, 221);
-    padding: 15px;
+.spinner {
+      position: relative;
+      height: 200px;
+      border: 2px solid rgb(221, 221, 221);
+      padding: 15px;
 }
 
-.ellipse{
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
+.ellipse {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-right: auto;
+      margin-left: auto;
 }
 
-.ellipse:first-child{
-    animation: rotate 5s linear infinite;
+.ellipse:first-child {
+      animation: rotate 5s linear infinite;
 }
 
-.ellipse:nth-child(2n){
-    animation: rotate2 5s linear infinite;
+.ellipse:nth-child(2n) {
+      animation: rotate2 5s linear infinite;
 }
 
-@keyframes rotate{
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-transform: rotate(360deg);
-    }
+@keyframes rotate {
+      from {
+            transform: rotate(0deg);
+      }
+      to {
+            transform: rotate(360deg);
+      }
 }
 
-@keyframes rotate2{
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-transform: rotate(-360deg);
-    }
+@keyframes rotate2 {
+      from {
+            transform: rotate(0deg);
+      }
+      to {
+            transform: rotate(-360deg);
+      }
 }
 
-.bigEllipse{
-    position: absolute;
-    width: 60%;
-    right: -10%;
+.bigEllipse {
+      position: absolute;
+      width: 60%;
+      right: -10%;
+}
+
+@media screen and (max-width: 850px) {
+      .imgDataAnalyst {
+            width: 100%;
+      }
+
+      .helpTitle {
+            margin-top: 200px;
+      }
+
+      .factoryImg {
+            display: none;
+      }
+
+      .factoryImgHoriz {
+            display: block;
+            width: 100%;
+      }
+
+      .firstCardTitle {
+            text-align: center;
+            margin-top: 25px;
+      }
+
+      .listCard {
+            display: flex;
+            padding: 0;
+      }
+
+      .listCard li {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+      }
+
+      .btnOrange{
+            margin-left: auto;
+            margin-right: auto;
+      }
 }

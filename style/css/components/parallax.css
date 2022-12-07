@@ -1,0 +1,14 @@
+
+
+.parallaxShape{
+    right: 0;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.parallaxShape2{
+    left: 0;
+    top: 0;
+    position: absolute;
+}
