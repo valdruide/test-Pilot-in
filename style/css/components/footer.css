@@ -60,6 +60,7 @@ footer ul li:hover{
 .links{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .links h4, .links a{
@@ -90,4 +91,21 @@ footer ul li:hover{
 .marque span{
     text-decoration: underline;
     font-weight: 600;
+}
+
+@media screen and (max-width: 991px) {
+    .lastCol{
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .socialList {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .marque{
+        text-align: left;
+    }
 }

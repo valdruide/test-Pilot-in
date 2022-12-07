@@ -5,7 +5,7 @@
       background-image: url('../../imgs/cta-illustation-corporate.png');
       background-repeat: no-repeat;
       background-position: left;
-      height: 500px;
+      padding: 100px 100px;
 }
 
 .demoContainer .row {
@@ -41,4 +41,44 @@
 .demoCol h2 {
       color: #23b2c8;
       font-size: 2.5em;
+}
+
+
+
+@media screen and (max-width: 1199px) {
+      .demoContainer {
+            padding: 90px;
+      }
+
+      .demoCol {
+            background: rgba(255, 255, 255, 0.24);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 25px;
+      }
+
+      .demoCol h3 {
+            color: white;
+      }
+
+      .demoColEmpty {
+            display: none;
+      }
+}
+
+@media screen and (max-width: 767px) {
+      .demoContainer {
+            padding: 50px;
+      }
+      .demoCol h3, .demoCol h2 {
+            text-align: center;
+      }
+      .demoBtn{
+            margin-right: auto;
+            margin-left: auto;
+            
+      }
 }

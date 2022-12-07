@@ -13,6 +13,7 @@ header {
 .annonce {
       display: flex;
       justify-content: center;
+      flex-wrap: wrap;
 }
 
 .annonce p {
@@ -135,30 +136,81 @@ header {
       }
 }
 
+@media screen and (max-width: 767px) {
+      .btnHead {
+            margin-left: auto;
+            margin-right: auto;
+      }
+
+      .banner p{
+            font-size: 5rem;
+      }
+}
+
 @media screen and (max-width: 662px) {
-      .headTitle h1{
+      .headTitle h1 {
             font-size: 3em;
       }
 }
 
-
 @media screen and (max-width: 900px) {
-
-      .headContainer{
+      .headContainer {
             margin-top: 80px;
       }
 
-      .imgHeadIllu{
+      .imgHeadIllu {
             margin-top: 80px;
       }
 }
 
-@media screen and (max-width: 1000px){
-      header{
+@media screen and (max-width: 1000px) {
+      header {
             clip-path: none;
       }
-      .banner{
+      .banner {
             margin-top: 80px;
             transform: rotate(0);
+      }
+}
+
+@media screen and (max-width: 386px) {
+      .headContainer {
+            margin-top: 250px;
+      }
+
+      .annonce p {
+            margin: 0;
+            text-align: center;
+            font-size: 15px;
+      }
+
+      .headTitle h1 {
+            text-align: center;
+            font-size: 40px;
+      }
+
+      .headTitle p {
+            text-align: center;
+      }
+
+      .btnHead{
+            display: block;
+            padding: 10px 0;
+      }
+
+      .btnHead p{
+         margin: 0;   
+      }
+
+      .partenaires {
+            justify-content: center;
+      }
+
+      .partenaires img{
+            margin-top: 15px;
+      }
+
+      .banner p{
+            font-size: 5rem;
       }
 }

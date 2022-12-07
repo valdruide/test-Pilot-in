@@ -4,8 +4,8 @@
       background-color: transparent !important;
 }
 
-.navbar-nav{
-    padding-left: 50px;
+.navbar-nav {
+      padding-left: 50px;
 }
 
 .nav-link {
@@ -14,72 +14,111 @@
       font-size: 18px;
 }
 
-.nav-link:hover, .nav-link:focus, .nav-link:active {
-    color: #3edff8;
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+      color: #3edff8;
 }
 
-.btnNav{
-    background-color: #23b2c8;
-    border-radius: 25px;
-    border: none;
+.btnNav {
+      background-color: #23b2c8;
+      border-radius: 25px;
+      border: none;
 }
 
-.ulRight{
-    padding-left: 20px;
+.ulRight {
+      padding-left: 20px;
 }
 
-.dropdown{
-    position: static!important;
+.dropdown {
+      position: static !important;
 }
 
-.dropdown-menu{
-    width: 100%!important;
-    border-radius: 0;
-    padding: 25px;
+.dropdown-menu {
+      width: 100% !important;
+      border-radius: 0;
+      padding: 25px;
 }
 
-.dropdown.langDrop{
-    position: relative!important;
+.dropdown.langDrop {
+      position: relative !important;
 }
 
-.dropdown-menu.lang{
-    left: 0!important;
-    padding: 15px;
-    min-width: 100px!important;
-    width: 50px!important;
+.dropdown-menu.lang {
+      left: 0 !important;
+      padding: 15px;
+      min-width: 100px !important;
+      width: 50px !important;
 }
 
-.dropdown-menu h2{
-    font-size: 20px;
+.dropdown-menu h2 {
+      font-size: 20px;
 }
 
-.dropdown-menu h3{
-    font-size: 20px;
-    color: #3edff8;
-    font-weight: 600;
+.dropdown-menu h3 {
+      font-size: 20px;
+      color: #3edff8;
+      font-weight: 600;
 }
 
-.dropdown-item{
-    padding: 0;
-    --bs-dropdown-link-hover-bg: #e9ecef00;
+.dropdown-item {
+      padding: 0;
+      --bs-dropdown-link-hover-bg: #e9ecef00;
 }
 
-.dropdown-item:hover{
-    color: #3edff8;
+.dropdown-item:hover {
+      color: #3edff8;
 }
 
-.dropdown-item:hover li{
-    background-color: red!important;
+.dropdown-item:hover li {
+      background-color: red !important;
 }
 
-.dropdown-menu .col{
-    padding: 25px;
-    border-radius: 25px;
-    cursor: pointer;
+.dropdown-menu .col {
+      padding: 25px;
+      border-radius: 25px;
+      cursor: pointer;
 }
 
-.dropdown-menu .col:hover{
-    background-color: #F0FDFF;
+.dropdown-menu .col:hover {
+      background-color: #f0fdff;
 }
 
+@media screen and (max-width: 991px) {
+      .show {
+            background-color: white;
+      }
 
+      .navbar{
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .navbar-nav {
+            padding-left: 20px;
+      }
+
+      .nav-item a {
+            color: black;
+      }
+
+      .navRight {
+            flex-direction: column-reverse;
+            padding-left: 20px;
+      }
+      
+      .btnNav {
+            width: 110px;
+            padding: 8px 15px;
+            border-radius: 0;
+            margin-bottom: 10px;
+      }
+
+      .ulRight {
+            padding-left: 0;
+      }
+
+      .dropdown-menu {
+            border: none;
+      }
+}
