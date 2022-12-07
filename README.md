@@ -1,4 +1,7 @@
 
+![Logo](https://i1.lensdump.com/i/RQ3wK2.png)
+
+
 # Pilot'in test technique
 
 
